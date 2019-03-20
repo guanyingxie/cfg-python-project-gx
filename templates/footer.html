@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>First flask app</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='app.css') }}">
+<!-- <link rel="stylesheet" href="footer.css">-->
+</head>
+
+<body>
+      <div class = "footer">
+        <div class = "row">
+        <div class = "column">
+          <h4>Home</h4>
+        </div>
+        <div class = "column">
+          <h4>About</h4>
+        </div>
+        <div class = "column">
+          <h4>Contact</h4>
+        </div>
+        </div>
+      </div>
+
+</body>
+
+<style>
+  .footer {
+    position: fixed;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  .column{
+    float: left;
+    width: 33.33%;
+  }
+</style>
